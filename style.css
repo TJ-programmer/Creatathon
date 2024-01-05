@@ -1,0 +1,196 @@
+/* Navbar and Logo */
+.food-munch-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 75%;
+    padding-right: 20px;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+.navbar-nav a {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+    color: green;
+    background-color: white;
+}
+
+/* Banner Section */
+.banner-section-bg-container {
+    background-image: url("color-bomb.gif");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-heading {
+    color: #d0b200;
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.banner-caption {
+    color: #e5e7eb;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.custom-button,
+.custom-outline-button {
+    color: #fff;
+    width: 130px;
+    height: 45px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button {
+    background-color: #d0b200;
+    border: none;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    background-color: transparent;
+    border: 1px solid #d0b200;
+}
+
+.custom-button:hover {
+    background-color: #ffd800;
+}
+
+.custom-outline-button:hover {
+    background-color: #d0b200;
+    color: white;
+}
+
+/* Skills Section (Add more styling if needed) */
+.skills-section {
+    background-color:darkblue;
+    padding: 50px 0;
+}
+
+.skills-section-heading {
+    color: #d0b200;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.skills-section-description {
+    color: #a0aec0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+/* Portfolio Section (Add more styling if needed) */
+.portfolio-section {
+    padding: 50px 0;
+    background-color: #2d3748;
+}
+
+.portfolio-section-heading {
+    color: #d0b200;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.portfolio-section-description {
+    color: #a0aec0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+/* About Me Section (Add more styling if needed) */
+.about-me-section {
+    background-color: #1a202c;
+    padding: 50px 0;
+}
+
+.about-me-section-heading {
+    color: #d0b200;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-me-section-description {
+    color: #a0aec0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+/* Contact Section (Add more styling if needed) */
+.contact-section {
+    padding: 50px 0;
+    background-color: #2d3748;
+}
+
+.contact-section-heading {
+    color: #d0b200;
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.contact-section-description {
+    color: #a0aec0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+.wcu-section {
+    background-color: #f9fbfe;
+  }
+  .wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  .wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+  }
+  .wcu-card-image {
+    width: 87px;
+    height: 90px;
+  }
+  .wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+  }
+  .wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
